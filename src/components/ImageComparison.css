@@ -11,3 +11,12 @@
     top: 0;
     left: 0;
 }
+.imageAfter {
+    width: 50%;
+    transition: 2s;
+    overflow: hidden;
+    border-right: 10px solid #f00;
+}
+.container:hover .imageAfter {
+    width: 100%;
+}
